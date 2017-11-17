@@ -1,0 +1,13 @@
+dog_sad_to_idle_00001 = 0 0 619 435
+dog_sad_to_idle_00003 = 620 0 619 435
+dog_sad_to_idle_00005 = 1240 0 619 435
+dog_sad_to_idle_00007 = 1860 0 619 435
+dog_sad_to_idle_00009 = 2480 0 619 435
+dog_sad_to_idle_00011 = 3100 0 619 435
+dog_sad_to_idle_00013 = 3720 0 619 435
+dog_sad_to_idle_00015 = 4340 0 619 435
+dog_sad_to_idle_00017 = 4960 0 619 435
+dog_sad_to_idle_00019 = 5580 0 619 435
+dog_sad_to_idle_00021 = 6200 0 619 435
+dog_sad_to_idle_00023 = 6820 0 619 435
+dog_sad_to_idle_00025 = 7440 0 619 435

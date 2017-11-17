@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import '../../node_modules/normalize.css/normalize.css';
+@import '../../node_modules/animate.css/animate.css';
+@import '../../node_modules/font-awesome/css/font-awesome.css';
+
+html {
+  font-size: 16px !important;
+  font-family: 'Roboto', sans-serif !important;
+  letter-spacing: 0.5px !important;
+}
+body {
+  background-color: #252031 !important;
+  color:#c9c9c9 !important;
+}
+
+.pet-cont{
+  position: absolute ;
+  width: 100% ;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  max-width: 720px;
+  border-style:solid;
+  border-width: 1px;
+  border-color: rgba(#c9c9c9,1.0);
+  background-color: rgba(#c9c9c9,0.1);
+  margin: auto;
+  min-height: 480px;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  padding-top:10px;
+}
+.trow{
+  margin:auto !important;
+ 
+  min-height:25px;
+  height: 50px;
+}
+.heal{
+  border-radius:0px !important;
+  color: rgb(216, 164, 42) !important;
+  border-color:rgb(155, 119, 28) !important;
+  border-style:solid;
+  border-width:1px;
+  background-color: rgba(#EEBB2C,0.1);
+  min-width:80px;
+  font-size: 16px !important;
+  font-family: 'Roboto', sans-serif !important;
+  padding: 2px 15px !important;
+  margin: 5px;
+}
+
+.heal:hover{
+  border-radius:0px !important;
+  color: rgb(255, 200, 49)  !important;
+  border-color:rgb(255, 200, 49) !important;
+  border-style:solid;
+  border-width:1px;
+  background-color: rgba(#EEBB2C,0.3);
+
+}
+
+.buy{
+  border-radius:0px !important;
+  color: rgb(28, 190, 150)  !important;
+  border-color:rgb(15, 102, 80) !important;
+  border-style:solid;
+  border-width:1px;
+  background-color: rgba(#25E1B7,0.1);
+  min-width:80px;
+  font-size: 16px !important;
+  font-family: 'Roboto', sans-serif !important;
+  padding: 2px 15px !important; 
+  margin: auto;
+
+}
+.buy:hover{
+  border-radius:0px !important;
+  color: rgb(32, 218, 174)  !important;
+  border-color:rgb(29, 189, 149)!important;
+  border-style:solid;
+  border-width:1px;
+  background-color: rgba(#25E1B7,0.3);
+}
+
+.barOuter {
+  background: #252525;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1px;
+  height: 16px;
+  width: 210px;
+  margin-bottom: 10px;
+  margin: auto;
+
+ }
+
+.barLabel {
+  color: #888;
+  font-size: 12px;
+  position: absolute;
+  right: -32px;
+  top: 0;
+}
+.barInner {
+  background-color: #A444B1;
+  border-right: 1px solid #090909;
+  border-radius: 1px;
+  height: 100%;
+  width: 50%;
+  background-size: 100% 100%, 20px 20px, 220px 100%;
+
+  background-image:
+      linear-gradient(to bottom,
+                      rgba(255, 255, 255, 0.33) 0,
+                      rgba(255, 255, 255, 0.08) 50%,
+                      rgba(0, 0, 0, 0.25) 50%,
+                      rgba(0, 0, 0, 0.1) 100%),
+      linear-gradient(45deg,
+                      rgba(255, 255, 255, 0.16) 25%,
+                      rgba(0, 0, 0, 0) 25%,
+                      rgba(0, 0, 0, 0) 50%,
+                      rgba(255, 255, 255, 0.16) 50%,
+                      rgba(255, 255, 255, 0.16) 75%,
+                      rgba(0, 0, 0, 0) 75%,
+                      rgba(0, 0, 0, 0)),
+      linear-gradient(to right, rgb(255, 0, 0), rgb(100, 200, 0));
+ 
+}
+.button-group{
+  min-height:50px;
+  position: absolute;
+  bottom:50px;
+  width: 100%;
+}
+.footer{
+  height:50px;
+  position: absolute;
+  background-color: rgba(rgb(236, 235, 235),0.1);
+  bottom:0px;
+  width:100%;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+ 

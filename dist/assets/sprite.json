@@ -1,0 +1,31 @@
+{
+    "dog":{
+        "idle3": {
+            "imagePath":"/assets/pets/dog/dog_idle3.png",
+            "startX":0,
+            "startY":0,
+            "width":620,
+            "height":435,
+            "frames":77,
+            "interval":6.0        
+        },
+        "playing": {
+            "imagePath":"/assets/pets/dog/dog_playing.png",
+            "startX":0,
+            "startY":0,
+            "width":620,
+            "height":435,
+            "frames":80,
+            "interval":6.0    
+        },
+        "eating": {
+            "imagePath":"/assets/pets/dog/dog_idle3.png",
+            "startX":0,
+            "startY":0,
+            "width":620,
+            "height":435,
+            "frames":77,
+            "interval":8.0    
+        }
+    }
+}
